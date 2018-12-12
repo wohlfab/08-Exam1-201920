@@ -163,7 +163,7 @@ def problem3a(r, s):
           -- 5 cubed is   125, whose sum of digits is  8, which is NOT odd.
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #          Tests have been written for you (above).
     #
     ###########################################################################
