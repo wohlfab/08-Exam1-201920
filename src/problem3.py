@@ -174,10 +174,9 @@ def problem3a(r, s):
     ###########################################################################
     total = 0
     for k in range(s-r+1):
-        if sum_of_digits(k+r) % 2 > 0:
+        if sum_of_digits((k+r)**3) % 2 ==1:
             total = total + k + r
     return total
-
 def run_test_problem3b():
     """ Tests the   problem3b   function. """
     print()
